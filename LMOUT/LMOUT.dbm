@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.8.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLAccessControl="http:///org/eclipse/datatools/modelbase/sql/accesscontrol.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore">
+  <LUW:LUWDatabase xmi:id="_2E5X4OZOEeeei7oFegAc3w" name="LMOUT" vendor="DB2 UDB" version="V10.1" schemas="_2FcxgOZOEeeei7oFegAc3w _2FhqAOZOEeeei7oFegAc3w" authorizationIds="_2Fqz8OZOEeeei7oFegAc3w _2Fpl0OZOEeeei7oFegAc3w" federated="true">
+    <eAnnotations xmi:id="_2E5X4eZOEeeei7oFegAc3w" source="ConnectionURI">
+      <details xmi:id="_2E5X4uZOEeeei7oFegAc3w" key="ConnectionKey" value="LMOUT1"/>
+    </eAnnotations>
+  </LUW:LUWDatabase>
+  <DB2Model:DB2Schema xmi:id="_2FcxgOZOEeeei7oFegAc3w" name="IIBADMIN" tables="_2FcxgeZOEeeei7oFegAc3w _2FiREOZOEeeei7oFegAc3w _2Fl7cOZOEeeei7oFegAc3w" database="_2E5X4OZOEeeei7oFegAc3w" owner="_2Fqz8OZOEeeei7oFegAc3w"/>
+  <LUW:LUWTable xmi:id="_2FcxgeZOEeeei7oFegAc3w" name="EMPLOYEE" schema="_2FcxgOZOEeeei7oFegAc3w" index="_2FhC8OZOEeeei7oFegAc3w" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYkOZOEeeei7oFegAc3w" name="EMPNO" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FdYkeZOEeeei7oFegAc3w" name="CHAR" length="6"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYkuZOEeeei7oFegAc3w" name="FIRSTNME" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FdYk-ZOEeeei7oFegAc3w" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="12"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYlOZOEeeei7oFegAc3w" name="MIDINIT">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FdYleZOEeeei7oFegAc3w" name="CHAR"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYluZOEeeei7oFegAc3w" name="LASTNAME" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FdYl-ZOEeeei7oFegAc3w" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYmOZOEeeei7oFegAc3w" name="WORKDEPT">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FdYmeZOEeeei7oFegAc3w" name="CHAR" length="3"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYmuZOEeeei7oFegAc3w" name="PHONENO">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FdYm-ZOEeeei7oFegAc3w" name="CHAR" length="4"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYnOZOEeeei7oFegAc3w" name="HIREDATE">
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_2FdYneZOEeeei7oFegAc3w" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYnuZOEeeei7oFegAc3w" name="JOB">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FdYn-ZOEeeei7oFegAc3w" name="CHAR" length="8"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYoOZOEeeei7oFegAc3w" name="EDLEVEL" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_2FdYoeZOEeeei7oFegAc3w" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYouZOEeeei7oFegAc3w" name="SEX">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FdYo-ZOEeeei7oFegAc3w" name="CHAR"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYpOZOEeeei7oFegAc3w" name="BIRTHDATE">
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_2FdYpeZOEeeei7oFegAc3w" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYpuZOEeeei7oFegAc3w" name="SALARY">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_2FdYp-ZOEeeei7oFegAc3w" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYqOZOEeeei7oFegAc3w" name="BONUS">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_2FdYqeZOEeeei7oFegAc3w" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FdYquZOEeeei7oFegAc3w" name="COMM">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_2FdYq-ZOEeeei7oFegAc3w" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_2FdYrOZOEeeei7oFegAc3w" name="SQL171221182632450" members="_2FdYkOZOEeeei7oFegAc3w"/>
+  </LUW:LUWTable>
+  <LUW:LUWIndex xmi:id="_2FhC8OZOEeeei7oFegAc3w" name="SQL171221182632350" Schema="_2FhqAOZOEeeei7oFegAc3w" fillFactor="10" unique="true" systemGenerated="true" table="_2FcxgeZOEeeei7oFegAc3w" systemRequired="true">
+    <members xmi:id="_2FhC8eZOEeeei7oFegAc3w" column="_2FdYkOZOEeeei7oFegAc3w"/>
+  </LUW:LUWIndex>
+  <DB2Model:DB2Schema xmi:id="_2FhqAOZOEeeei7oFegAc3w" name="SYSIBM" indices="_2FhC8OZOEeeei7oFegAc3w _2FhqAeZOEeeei7oFegAc3w _2FlUYOZOEeeei7oFegAc3w" database="_2E5X4OZOEeeei7oFegAc3w" owner="_2Fpl0OZOEeeei7oFegAc3w"/>
+  <LUW:LUWIndex xmi:id="_2FhqAeZOEeeei7oFegAc3w" name="SQL171221182632700" Schema="_2FhqAOZOEeeei7oFegAc3w" fillFactor="10" unique="true" systemGenerated="true" table="_2FiREOZOEeeei7oFegAc3w" systemRequired="true">
+    <members xmi:id="_2FhqAuZOEeeei7oFegAc3w" column="_2FiREeZOEeeei7oFegAc3w"/>
+  </LUW:LUWIndex>
+  <LUW:LUWTable xmi:id="_2FiREOZOEeeei7oFegAc3w" name="DEPARTMENT" schema="_2FcxgOZOEeeei7oFegAc3w" index="_2FhqAeZOEeeei7oFegAc3w" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FiREeZOEeeei7oFegAc3w" name="DEPTNO" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FiREuZOEeeei7oFegAc3w" name="CHAR" length="3"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FiRE-ZOEeeei7oFegAc3w" name="DEPTNAME" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FiRFOZOEeeei7oFegAc3w" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="36"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FiRFeZOEeeei7oFegAc3w" name="MGRNO">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FiRFuZOEeeei7oFegAc3w" name="CHAR" length="6"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FiRF-ZOEeeei7oFegAc3w" name="ADMRDEPT" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2Fi4IOZOEeeei7oFegAc3w" name="CHAR" length="3"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2Fi4IeZOEeeei7oFegAc3w" name="LOCATION">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2Fi4IuZOEeeei7oFegAc3w" name="CHAR" length="16"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_2Fi4I-ZOEeeei7oFegAc3w" name="SQL171221182632730" members="_2FiREeZOEeeei7oFegAc3w"/>
+  </LUW:LUWTable>
+  <LUW:LUWIndex xmi:id="_2FlUYOZOEeeei7oFegAc3w" name="SQL171221182635730" Schema="_2FhqAOZOEeeei7oFegAc3w" fillFactor="10" unique="true" systemGenerated="true" table="_2Fl7cOZOEeeei7oFegAc3w" systemRequired="true">
+    <members xmi:id="_2FlUYeZOEeeei7oFegAc3w" column="_2Fl7ceZOEeeei7oFegAc3w"/>
+  </LUW:LUWIndex>
+  <LUW:LUWTable xmi:id="_2Fl7cOZOEeeei7oFegAc3w" name="EMPLOYEE_SUPPLEMENTARY" schema="_2FcxgOZOEeeei7oFegAc3w" index="_2FlUYOZOEeeei7oFegAc3w" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2Fl7ceZOEeeei7oFegAc3w" name="EMPNO_SUPP" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2Fl7cuZOEeeei7oFegAc3w" name="CHAR" length="6"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2Fl7c-ZOEeeei7oFegAc3w" name="EMAIL">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2Fl7dOZOEeeei7oFegAc3w" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="256"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FmigOZOEeeei7oFegAc3w" name="MOBILEPHONE">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FmigeZOEeeei7oFegAc3w" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="20"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FmiguZOEeeei7oFegAc3w" name="TWITTERID">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2Fmig-ZOEeeei7oFegAc3w" name="CHAR" length="32"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FmihOZOEeeei7oFegAc3w" name="BOXID">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2FmiheZOEeeei7oFegAc3w" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="256"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2FmihuZOEeeei7oFegAc3w" name="IMAGE">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2Fmih-ZOEeeei7oFegAc3w" name="CLOB" primitiveType="CHARACTER_LARGE_OBJECT" length="1048576"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_2FmiiOZOEeeei7oFegAc3w" name="SQL171221182635820" members="_2Fl7ceZOEeeei7oFegAc3w"/>
+  </LUW:LUWTable>
+  <SQLAccessControl:User xmi:id="_2Fpl0OZOEeeei7oFegAc3w" name="SYSIBM" ownedSchema="_2FhqAOZOEeeei7oFegAc3w" Database="_2E5X4OZOEeeei7oFegAc3w"/>
+  <SQLAccessControl:User xmi:id="_2Fqz8OZOEeeei7oFegAc3w" name="RAGHA" description="" ownedSchema="_2FcxgOZOEeeei7oFegAc3w" Database="_2E5X4OZOEeeei7oFegAc3w"/>
+</xmi:XMI>

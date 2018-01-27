@@ -1,0 +1,21 @@
+
+
+Importing file: C:\Users\ragha\IBM\IIBT10\workspace\LMOUT\LMOUT.dbm
+
+
+Processing schema IIBADMIN.
+Creating complex type for table DEPARTMENT.
+Creating global element for table DEPARTMENT.
+Creating complex type for table EMPLOYEE.
+Creating global element for table EMPLOYEE.
+Creating complex type for table EMPLOYEE_SUPPLEMENTARY.
+Creating global element for table EMPLOYEE_SUPPLEMENTARY.
+Creating file \EmployeeService_interface_and_maps\lmout\iibadmin\LMOUT.xsd in the workspace.
+
+Elapsed time processing this message definition file: 25.604 seconds
+Number of warnings for this message definition file: 0
+
+
+Number of files processed: 1
+
+
